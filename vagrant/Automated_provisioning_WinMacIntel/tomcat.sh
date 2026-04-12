@@ -53,7 +53,7 @@ cp -r apache-maven-3.9.9 /usr/local/maven3.9
 export MAVEN_OPTS="-Xmx512m"
 
 git clone https://github.com/Kevin-Pawan/vprofile_project.git
-cd vprofile-project
+cd vprofile_project
 /usr/local/maven3.9/bin/mvn install
 systemctl stop tomcat
 sleep 20
